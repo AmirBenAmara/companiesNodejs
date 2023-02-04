@@ -4,8 +4,8 @@
   "description": "Api Entreprises Françaises",
   "main": "app.js",
   "scripts": {
-    "start": "SET NODE_ENV=dev && node server.js",
-    "test": "mocha"
+    "start": "SET NODE_ENV=dev && node app.js",
+    "test": "mocha --timeout 1000"
   },
   "author": "Amir Ben Amara",
   "license": "ISC",
